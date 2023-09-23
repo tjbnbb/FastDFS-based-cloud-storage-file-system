@@ -1,0 +1,86 @@
+[2021-05-20 15:42:45]--[src_cgi/sharefiles_cgi.c:605]--cmd = count
+[2021-05-20 15:42:45]--[src_cgi/sharefiles_cgi.c:84]--line = 1
+[2021-05-20 15:42:46]--[src_cgi/sharefiles_cgi.c:605]--cmd = normal
+[2021-05-20 15:42:46]--[src_cgi/sharefiles_cgi.c:643]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2021-05-20 15:42:46]--[src_cgi/sharefiles_cgi.c:652]--start = 0, count = 1
+[2021-05-20 15:42:46]--[src_cgi/sharefiles_cgi.c:171]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2021-05-20 15:42:46]--[src_cgi/sharefiles_cgi.c:299]--{
+	"files":	[{
+			"user":	"liaoqingfu",
+			"md5":	"e8019e51b30a43f123ce2d7d101e3b60",
+			"file_name":	"数据库脚本.rar",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2021-05-19 20:01:45",
+			"url":	"http://120.27.131.197:80/group1/M00/00/00/eBuDxWCfQ7-AZ46qAAAFnA6XuOk033.rar",
+			"size":	1436,
+			"type":	"rar"
+		}]
+}
+[2021-05-20 15:42:48]--[src_cgi/sharefiles_cgi.c:605]--cmd = count
+[2021-05-20 15:42:48]--[src_cgi/sharefiles_cgi.c:84]--line = 1
+[2021-05-20 15:42:48]--[src_cgi/sharefiles_cgi.c:605]--cmd = pvdesc
+[2021-05-20 15:42:48]--[src_cgi/sharefiles_cgi.c:643]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2021-05-20 15:42:48]--[src_cgi/sharefiles_cgi.c:652]--start = 0, count = 1
+[2021-05-20 15:42:48]--[src_cgi/sharefiles_cgi.c:406]--sql_num = 1, redis_num = 0
+[2021-05-20 15:42:48]--[src_cgi/sharefiles_cgi.c:420]--select md5, file_name, pv from share_file_list order by pv desc 在操作
+[2021-05-20 15:42:48]--[src_cgi/sharefiles_cgi.c:536]--{
+	"files":	[{
+			"filename":	"数据库脚本.rar",
+			"pv":	0
+		}]
+}
+[2021-05-20 15:42:51]--[src_cgi/sharefiles_cgi.c:605]--cmd = count
+[2021-05-20 15:42:51]--[src_cgi/sharefiles_cgi.c:84]--line = 1
+[2021-05-20 15:42:51]--[src_cgi/sharefiles_cgi.c:605]--cmd = normal
+[2021-05-20 15:42:51]--[src_cgi/sharefiles_cgi.c:643]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2021-05-20 15:42:51]--[src_cgi/sharefiles_cgi.c:652]--start = 0, count = 1
+[2021-05-20 15:42:51]--[src_cgi/sharefiles_cgi.c:171]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2021-05-20 15:42:51]--[src_cgi/sharefiles_cgi.c:299]--{
+	"files":	[{
+			"user":	"liaoqingfu",
+			"md5":	"e8019e51b30a43f123ce2d7d101e3b60",
+			"file_name":	"数据库脚本.rar",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2021-05-19 20:01:45",
+			"url":	"http://120.27.131.197:80/group1/M00/00/00/eBuDxWCfQ7-AZ46qAAAFnA6XuOk033.rar",
+			"size":	1436,
+			"type":	"rar"
+		}]
+}
+[2021-05-20 15:46:21]--[src_cgi/sharefiles_cgi.c:605]--cmd = count
+[2021-05-20 15:46:21]--[src_cgi/sharefiles_cgi.c:84]--line = 1
+[2021-05-20 15:46:21]--[src_cgi/sharefiles_cgi.c:605]--cmd = normal
+[2021-05-20 15:46:21]--[src_cgi/sharefiles_cgi.c:643]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2021-05-20 15:46:21]--[src_cgi/sharefiles_cgi.c:652]--start = 0, count = 1
+[2021-05-20 15:46:21]--[src_cgi/sharefiles_cgi.c:171]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2021-05-20 15:46:21]--[src_cgi/sharefiles_cgi.c:299]--{
+	"files":	[{
+			"user":	"liaoqingfu",
+			"md5":	"e8019e51b30a43f123ce2d7d101e3b60",
+			"file_name":	"数据库脚本.rar",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2021-05-19 20:01:45",
+			"url":	"http://120.27.131.197:80/group1/M00/00/00/eBuDxWCfQ7-AZ46qAAAFnA6XuOk033.rar",
+			"size":	1436,
+			"type":	"rar"
+		}]
+}

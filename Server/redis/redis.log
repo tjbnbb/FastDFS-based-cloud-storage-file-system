@@ -1,0 +1,25 @@
+11761:C 20 May 2021 14:50:23.265 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+11761:C 20 May 2021 14:50:23.265 # Redis version=6.2.3, bits=64, commit=00000000, modified=0, pid=11761, just started
+11761:C 20 May 2021 14:50:23.265 # Configuration loaded
+11761:M 20 May 2021 14:50:23.266 * monotonic clock: POSIX clock_gettime
+11761:M 20 May 2021 14:50:23.266 # Warning: Could not create server TCP listening socket ::1:6379: bind: Cannot assign requested address
+11761:M 20 May 2021 14:50:23.266 * Running mode=standalone, port=6379.
+11761:M 20 May 2021 14:50:23.266 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+11761:M 20 May 2021 14:50:23.266 # Server initialized
+11761:M 20 May 2021 14:50:23.266 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+11761:M 20 May 2021 14:50:23.267 * Ready to accept connections
+11890:C 20 May 2021 14:50:48.804 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+11890:C 20 May 2021 14:50:48.804 # Redis version=6.2.3, bits=64, commit=00000000, modified=0, pid=11890, just started
+11890:C 20 May 2021 14:50:48.804 # Configuration loaded
+11890:M 20 May 2021 14:50:48.805 * monotonic clock: POSIX clock_gettime
+11890:M 20 May 2021 14:50:48.805 # Warning: Could not create server TCP listening socket ::1:6379: bind: Cannot assign requested address
+11890:M 20 May 2021 14:50:48.805 * Running mode=standalone, port=6379.
+11890:M 20 May 2021 14:50:48.805 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+11890:M 20 May 2021 14:50:48.805 # Server initialized
+11890:M 20 May 2021 14:50:48.805 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+11890:M 20 May 2021 14:50:48.806 * Ready to accept connections
+11890:M 20 May 2021 15:50:49.032 * 1 changes in 3600 seconds. Saving...
+11890:M 20 May 2021 15:50:49.033 * Background saving started by pid 12160
+12160:C 20 May 2021 15:50:49.038 * DB saved on disk
+12160:C 20 May 2021 15:50:49.039 * RDB: 0 MB of memory used by copy-on-write
+11890:M 20 May 2021 15:50:49.133 * Background saving terminated with success
